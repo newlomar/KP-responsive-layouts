@@ -61,11 +61,11 @@ h1 {
     color: #FFF;
 }
 
-.hero__text { 
+.hero__text, .main__left { 
     width: 62%;
 }
 
-.hero__img {
+.hero__image, .main__right {
     width: 32%;
     align-self: flex-start;
 }
@@ -95,24 +95,16 @@ h1 {
     justify-content: space-between;
 }
 
-.main__left {
-    width: 65%;
-}
-
 .main__left h2 {
     color: #136C72;
     font-size: 36px;
 }
 
 .main__right {
-    width: 35%;
     background-color: #136C72;
     color: white;
     text-align: center;
-}
-
-.item {
-    padding: 1em 1.5em;
+    padding: 1em;
 }
 
 .item p {
