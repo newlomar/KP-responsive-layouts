@@ -1,19 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@900&family=Roboto:wght@300;400&display=swap');
+
 * {
   box-sizing: border-box;
 }
 
 body {
   margin: 0;
-  font-family: sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 .intro {
-  min-height: 660px;
+  text-align: center;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  min-height: 660px;
   background-color: #F3EED9;
+}
+
+.intro__text {
+  width: 50%;
+}
+
+.intro__text p {
+  font-size: 18px;
+  font-weight: 300;
+  text-transform: uppercase;
+  letter-spacing: 10px;
+  word-spacing: 10px;
+  margin: 0;
+}
+
+.intro__text h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 60px;
+  color: #824936;
+  margin: 0;
 }
 
 .container {
