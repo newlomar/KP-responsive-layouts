@@ -107,3 +107,7 @@ body {
 .second__element {
   width: 45%;
 }
+
+.flex img {
+  align-self: flex-start;
+}
