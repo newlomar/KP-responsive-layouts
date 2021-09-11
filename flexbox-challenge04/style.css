@@ -15,6 +15,10 @@ body {
   margin: 0 auto;
 }
 
+.flex {
+  display: flex;
+}
+
 .intro {
   text-align: center;
   display: flex;
@@ -59,4 +63,15 @@ body {
   font-size: 36px;
   font-weight: 900;
   font-family: 'Playfair Display', serif;
+  color: #824936;
+}
+
+.paragraphs {
+  line-height: 1.7;
+  font-size: 21px;
+  color: #222C2A;
+}
+
+.p + .p {
+  margin-left: 50px;
 }
