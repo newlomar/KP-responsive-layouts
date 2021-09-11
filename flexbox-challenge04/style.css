@@ -13,10 +13,15 @@ body {
 .container {
   max-width: 1128px;
   margin: 0 auto;
+  width: 80%;
 }
 
 .flex {
   display: flex;
+}
+
+.sb {
+  justify-content: space-between;
 }
 
 .intro {
@@ -82,9 +87,21 @@ body {
 
 .main__image {
   color: #F3EED9;
+  padding: 5em 0;
 }
 
 .main__image h3 {
   font-family: 'Playfair Display', serif;
   font-size: 36px;
+}
+
+.main__image p {
+  font-size: 21px
+}
+
+.first__element {
+  width: 50%;
+}
+.second__element {
+  width: 45%;
 }
