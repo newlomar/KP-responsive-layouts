@@ -9,6 +9,12 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
+
+.container {
+  max-width: 1128px;
+  margin: 0 auto;
+}
+
 .intro {
   text-align: center;
   display: flex;
@@ -37,11 +43,6 @@ body {
   font-size: 60px;
   color: #824936;
   margin: 0;
-}
-
-.container {
-  max-width: 1128px;
-  margin: 0 auto;
 }
 
 .first {
