@@ -41,6 +41,7 @@ body {
 .intro__text h1 {
   font-family: 'Playfair Display', serif;
   font-size: 60px;
+  font-weight: 900;
   color: #824936;
   margin: 0;
 }
@@ -51,4 +52,11 @@ body {
 
 .second {
   background-color: #824936;
+}
+
+.main__text h2 {
+  text-align: center;
+  font-size: 36px;
+  font-weight: 900;
+  font-family: 'Playfair Display', serif;
 }
