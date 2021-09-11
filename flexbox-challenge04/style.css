@@ -53,6 +53,7 @@ body {
   font-weight: 900;
   color: #824936;
   margin: 0;
+  margin-top: 0.2em;
 }
 
 .first {
@@ -64,7 +65,7 @@ body {
 }
 
 .main__text {
-  padding: 2em 0;
+  padding: 4em 0;
 }
 
 .main__text h2 {
@@ -76,13 +77,14 @@ body {
 }
 
 .paragraphs {
-  line-height: 1.7;
+  line-height: 1.4;
   font-size: 21px;
+  font-weight:normal;
   color: #222C2A;
 }
 
 .p + .p {
-  margin-left: 50px;
+  margin-left: 100px;
 }
 
 .main__image {
@@ -93,8 +95,7 @@ body {
 .main__image h3 {
   font-family: 'Playfair Display', serif;
   font-size: 36px;
-  line-height: 1;
-  margin-top: 0;
+  margin-top: 0.3em;
 }
 
 .main__image p {
@@ -102,7 +103,7 @@ body {
 }
 
 .first__element {
-  width: 50%;
+  width: 49.1%;
 }
 .second__element {
   width: 45%;
