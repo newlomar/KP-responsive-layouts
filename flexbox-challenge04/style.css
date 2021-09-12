@@ -37,10 +37,6 @@ img {
   background-color: #F3EED9;
 }
 
-.intro__text {
-  width: 50%;
-}
-
 .intro__text p {
   font-size: 18px;
   font-weight: 300;
@@ -115,4 +111,33 @@ img {
 
 .flex img {
   align-self: flex-start;
+}
+
+@media (max-width: 600px) {
+
+  .intro {
+    min-height: 0;
+    padding: 10em 0;
+  }
+
+  .intro__text h1 {
+    font-size: 40px;
+  }
+
+  .p + .p {
+    margin-left: 0;
+  }
+
+  .flex {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .flex img {
+    align-self: baseline;
+  }
+
+  .first__element, .second__element {
+    width: 100%;
+  }
 }
