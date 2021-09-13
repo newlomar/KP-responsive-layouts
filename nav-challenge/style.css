@@ -126,12 +126,15 @@ header {
     position: absolute;
 }
 
+.nav__list {
+    display: flex;
+}
+
 .nav--visible {
     visibility: visible;
     height: auto;
     position: relative;
-} 
-
+}
 
 .logo {
     height: 30px;
@@ -180,6 +183,8 @@ header {
         display: flex;
         height: auto;
     }
+
+
 
     .row {
         display: flex;
