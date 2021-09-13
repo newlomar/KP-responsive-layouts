@@ -116,7 +116,7 @@ img {
 @media (max-width: 600px) {
 
   .intro {
-    min-height: 0;
+    min-height: 0px;
     padding: 10em 0;
   }
 
