@@ -56,6 +56,12 @@ h1 {
     position: relative;
 }
 
+.row {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
 header {
     background: #136c72;
     padding: 1em 0;
@@ -129,6 +135,27 @@ header {
 
 .nav__list {
     display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.nav__item {
+    padding: 1em 0;
+}
+
+.nav__link {
+    font-weight: 900;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.nav__link--button {
+    color: #136c72;
+    background-color: #fff;
+    border-radius: 30px;
+    padding: 0.5em 1em;
 }
 
 .nav--visible {
@@ -174,7 +201,10 @@ header {
 
 @media (min-width: 800px) {
 
-    
+    .row {
+        flex-direction: row;
+    }
+
     .nav-toggle {
         display: none;
     }
@@ -183,14 +213,20 @@ header {
         visibility: visible;
         display: flex;
         height: auto;
+        position: relative;
     }
 
+    .nav__list {
+        margin: 0;
+        flex-direction: row;
+    }
 
+    .nav__item {
+        padding: 0;
+    }
 
-    .row {
-        display: flex;
-        justify-content: space-between;
-
+    .nav__item + .nav__item {
+        margin-left: 1em;
     }
 
     .hero__text {
